@@ -16,9 +16,9 @@ plateHeight = 1.80;
 
 // Back plate
 backPlateHeight = 3.0;
-backPlateCutoutWidth = 4.0;
+backPlateCutoutWidth = 11.0;
 backPlateCutoutDepth = 1.0;
-backPlateWiringHole = 3.4;
+backPlateWiringHole = 3.0;
 
 // Spacer
 spacerHeight = 6.0;
