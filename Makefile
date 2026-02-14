@@ -12,6 +12,8 @@ ifeq ($(OPENSCAD),)
   $(error OpenSCAD not found. Install it or add it to your PATH)
 endif
 
+SCAD_SOURCES := $(wildcard src/*.scad)
+
 TARGETS := \
 	$(BUILD_DIR)/top_plate_padding.stl \
 	$(BUILD_DIR)/top_plate_pixels.stl \
@@ -20,6 +22,8 @@ TARGETS := \
 	$(BUILD_DIR)/compartment.stl
 
 all: $(TARGETS)
+
+render: $(BUILD_DIR)/render.png
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
@@ -39,7 +43,11 @@ $(BUILD_DIR)/back_plate.stl: src/back_plate.scad config.scad | $(BUILD_DIR)
 $(BUILD_DIR)/compartment.stl: src/compartment.scad config.scad | $(BUILD_DIR)
 	"$(OPENSCAD)" -o $@ $<
 
+$(BUILD_DIR)/render.png: src/render.scad $(SCAD_SOURCES) config.scad | $(BUILD_DIR)
+	"$(OPENSCAD)" -o $@ --imgsize=1920,1080 --colorscheme=Tomorrow $<
+	magick $@ -transparent "#F8F8F8" $@
+
 clean:
 	rm -rf $(BUILD_DIR)
 
-.PHONY: all clean
+.PHONY: all clean render
