@@ -3,8 +3,8 @@ countX = 12;
 countY = 12;
 
 // Based on the LED strips you want to use
-ledSize = 4.85;
-ledSpacing = 11.7;
+ledSize = 4.85; // The size of the LED itself
+ledSpacing = 11.7; // The distance edge-to-edge between LEDs on the strip
 ledStripWidth = 10.3;
 cellSize = ledSize + ledSpacing;
 

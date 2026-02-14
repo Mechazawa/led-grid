@@ -48,4 +48,6 @@ Output STL files are placed in `build/`:
 
 ## Gluing jig
 
-The jig holds all layers in alignment while gluing. It's a base plate with L-shaped corner walls that sit slightly above the fully assembled stack. A large hole in the base lets you push the finished assembly out from below.
+The jig holds all layers in alignment while gluing.
+It's a base plate with L-shaped corner walls that sit slightly above the fully assembled stack.
+A large hole in the base lets you push the finished assembly out from below.
