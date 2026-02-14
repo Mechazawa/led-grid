@@ -15,6 +15,21 @@ The panel is made up of four stacked layers (bottom to top):
 | **Spacer** | Grid of walls that separates each LED into its own cell, preventing light bleed. Alignment keys on the edge walls slot into the back plate cutouts. |
 | **Top plate** | The visible face. Black grid padding with raised white pixel diffuser boxes. Printed in two materials. |
 
+## Downloads
+
+Not a developer? Don't want to deal with code? Just want the STL files? I get it — [you're not the first](https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/).
+
+Grab the latest pre-built STLs from the [releases page](https://github.com/Mechazawa/pixel-panel/releases). Pick the zip that matches your LED strip and grid size:
+
+- **WS2812B / SK6812 — 30 LEDs/m** (~33mm between LEDs, 10mm strip width)
+  - `pixel-panel-5050-30leds-8x8.zip`
+  - `pixel-panel-5050-30leds-12x12.zip`
+- **WS2812B / SK6812 — 60 LEDs/m** (~17mm between LEDs, 10mm strip width)
+  - `pixel-panel-5050-60leds-8x8.zip`
+  - `pixel-panel-5050-60leds-12x12.zip`
+
+If your strip isn't listed, see the [Building](#building) section to generate STLs for any strip dimensions.
+
 ## Hardware
 
 - **LED strips**: Any addressable LED strip (e.g. WS2812B, SK6812). Adjust the LED dimensions in `config.scad` to match your strips.
