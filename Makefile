@@ -19,7 +19,8 @@ TARGETS := \
 	$(BUILD_DIR)/top_plate_pixels.stl \
 	$(BUILD_DIR)/spacer.stl \
 	$(BUILD_DIR)/back_plate.stl \
-	$(BUILD_DIR)/compartment.stl
+	$(BUILD_DIR)/compartment.stl \
+	$(BUILD_DIR)/jig.stl
 
 all: $(TARGETS)
 
@@ -41,6 +42,9 @@ $(BUILD_DIR)/back_plate.stl: src/back_plate.scad config.scad | $(BUILD_DIR)
 	"$(OPENSCAD)" -o $@ $<
 
 $(BUILD_DIR)/compartment.stl: src/compartment.scad config.scad | $(BUILD_DIR)
+	"$(OPENSCAD)" -o $@ $<
+
+$(BUILD_DIR)/jig.stl: src/jig.scad config.scad | $(BUILD_DIR)
 	"$(OPENSCAD)" -o $@ $<
 
 $(BUILD_DIR)/render.png: src/render.scad $(SCAD_SOURCES) config.scad | $(BUILD_DIR)

@@ -37,3 +37,10 @@ compartmentHoles = [
   [0, 0], // Right
   [0, 0], // Top
 ];
+
+// Gluing jig
+jigClearance = 0.3;
+jigWall = 3.0;
+jigCornerLength = 30.0;
+jigBaseHeight = 2.0;
+jigHoleMargin = 15.0;
