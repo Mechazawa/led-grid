@@ -19,7 +19,7 @@ The panel is made up of four stacked layers (bottom to top):
 
 > "SO WHY THE FUCK IS THERE CODE? make an ~~EXE~~ STL file and give it to me. STUPID FUCKING SMELLY NERDS"
 >
-> - [automatic*purpose*](https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/) 2024
+> - [automatic_purpose\_](https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/) 2024
 
 Grab the latest pre-built STLs from the [releases page](https://github.com/Mechazawa/pixel-panel/releases). Pick the zip that matches your LED strip and grid size:
 
