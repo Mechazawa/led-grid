@@ -24,7 +24,7 @@ backPlateWiringHole = 3.0;
 spacerHeight = 6.0;
 spacerWall = 2.0;
 spacerKeyHeight = backPlateCutoutDepth - 0.1;
-spacerKeyWidth = ledStripWidth - 2;
+spacerKeyWidth = ledStripWidth - 0.2;
 
 // Electronics compartment
 compartmentHeight = 15.0;
