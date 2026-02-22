@@ -4,7 +4,7 @@ A 3D-printable pixel art display powered by WS2812B (NeoPixel) LED strips and [W
 
 ![Exploded assembly view](docs/render.png)
 
-![demo](docs/demo.mp4)
+![demo](docs/demo.avif)
 
 ## Assembly
 
