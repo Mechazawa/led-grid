@@ -4,6 +4,8 @@ A 3D-printable pixel art display powered by WS2812B (NeoPixel) LED strips and [W
 
 ![Exploded assembly view](docs/render.png)
 
+<video src="docs/demo.webm" autoplay loop muted playsinline width="640"></video>
+
 ## Assembly
 
 The panel is made up of four stacked layers (bottom to top):
@@ -14,6 +16,17 @@ The panel is made up of four stacked layers (bottom to top):
 | **Back plate**              | Holds the LED strips in cutout channels. Wiring holes at each end let strips bend down into the compartment.                                        |
 | **Spacer**                  | Grid of walls that separates each LED into its own cell, preventing light bleed. Alignment keys on the edge walls slot into the back plate cutouts. |
 | **Top plate**               | The visible face. Black grid padding with raised white pixel diffuser boxes. Printed in two materials.                                              |
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/back_plate-front-closeup.webp" alt="LED strips seated in back plate channels" width="300"></td>
+    <td align="center"><img src="docs/back_plate-back-closeup.webp" alt="Wiring slots at the edge of the back plate" width="300"></td>
+  </tr>
+  <tr>
+    <td><em>LED strips seated in the back plate channels</em></td>
+    <td><em>Wiring slots at the edge route strips into the compartment</em></td>
+  </tr>
+</table>
 
 ## Downloads
 
@@ -69,5 +82,6 @@ The jig holds all layers in alignment while gluing.
 It's a base plate with L-shaped corner walls that sit slightly above the fully assembled stack.
 A large hole in the base lets you push the finished assembly out from below.
 
-## Acknowledgements 
-This project was inspired by the work done by [Misfitwrx](https://makerworld.com/en/@Misfitwrx) on Makerworld. You can find the original project [here](https://makerworld.com/models/64716) which also has excellent assembly instructions. 
+## Acknowledgements
+
+Inspired by [Misfitwrx](https://makerworld.com/en/@Misfitwrx)'s [original design on MakerWorld](https://makerworld.com/models/64716), which also has excellent assembly instructions.
