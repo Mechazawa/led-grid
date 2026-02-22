@@ -68,3 +68,6 @@ Output STL files are placed in `build/`:
 The jig holds all layers in alignment while gluing.
 It's a base plate with L-shaped corner walls that sit slightly above the fully assembled stack.
 A large hole in the base lets you push the finished assembly out from below.
+
+## Acknowledgements 
+This project was inspired by the work done by [Misfitwrx](https://makerworld.com/en/@Misfitwrx) on Makerworld. You can find the original project [here](https://makerworld.com/models/64716) which also has excellent assembly instructions. 
